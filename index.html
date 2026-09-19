@@ -3,12 +3,134 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Henry's Website</title>
+    <meta name="description" content="Henry's professional resume and portfolio.">
+    <title>Henry Smith | Resume</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <header class="topbar">
+        <nav class="nav" aria-label="Main navigation">
+            <a class="logo" href="#top">HS / Resume</a>
+            <div class="nav-links">
+                <a href="#experience">Experience</a>
+                <a href="#education">Education</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
 
-    <h1>Welcome to My Website</h1>
-    <p>My name is henry and I am very cool because I ski and stuff</p>
+    <main id="top">
+        <section class="hero">
+            <div>
+                <p class="eyebrow">Resume / Portfolio</p>
+                <h1>Henry<br>St Ours</h1>
+                <p class="hero-summary">Placeholder summary text for the hero section.</p>
+                <div class="hero-actions">
+                    <a class="button" href="resume.pdf" download>Download resume</a>
+                    <a class="button secondary" href="mailto:hello@example.com">Get in touch</a>
+                </div>
+            </div>
+            <aside class="hero-note">
+                <strong>Currently exploring</strong>
+                <span>Opportunities where I can learn quickly, contribute meaningfully, and work with good people.</span>
+            </aside>
+        </section>
 
+        <section class="resume-shell">
+            <div class="resume-grid">
+                <div>
+                    <section class="section" id="experience">
+                        <h2 class="section-heading"><span>01</span> Experience</h2>
+                        <article class="entry">
+                            <div class="entry-top">
+                                <div>
+                                    <h3>Role or Position Title</h3>
+                                    <p class="entry-company">Company Name</p>
+                                </div>
+                                <span class="entry-date">2024 - Present</span>
+                            </div>
+                            <ul>
+                                <li>Describe your most meaningful responsibility or accomplishment in one clear sentence.</li>
+                                <li>Add a result, metric, or detail that shows the impact of your work.</li>
+                            </ul>
+                        </article>
+                        <article class="entry">
+                            <div class="entry-top">
+                                <div>
+                                    <h3>Previous Role or Position</h3>
+                                    <p class="entry-company">Previous Company</p>
+                                </div>
+                                <span class="entry-date">2022 - 2024</span>
+                            </div>
+                            <ul>
+                                <li>Share a project, skill, or contribution that is relevant to the opportunity you want.</li>
+                                <li>Keep each bullet focused on what you did and why it mattered.</li>
+                            </ul>
+                        </article>
+                    </section>
+
+                    <section class="section" id="education">
+                        <h2 class="section-heading"><span>02</span> Education</h2>
+                        <article class="entry">
+                            <div class="entry-top">
+                                <div>
+                                    <h3>Degree or Certification</h3>
+                                    <p class="entry-company">School or Program Name</p>
+                                </div>
+                                <span class="entry-date">2020 - 2024</span>
+                            </div>
+                            <p>Optional detail such as an area of study, academic focus, award, or relevant activity.</p>
+                        </article>
+                    </section>
+
+                    <section class="section">
+                        <h2 class="section-heading"><span>03</span> Projects</h2>
+                        <article class="entry">
+                            <div class="entry-top">
+                                <div>
+                                    <h3>Project Name</h3>
+                                    <p class="entry-company">Personal / School / Client project</p>
+                                </div>
+                                <span class="entry-date">2024</span>
+                            </div>
+                            <p>A short description of what you built, organized, or accomplished. Link this title to a project page when you have one.</p>
+                        </article>
+                    </section>
+                </div>
+
+                <aside class="side-column">
+                    <section class="side-block" id="contact">
+                        <h2>Contact</h2>
+                        <ul class="contact-list">
+                            <li><a href="mailto:hello@example.com">hello@example.com</a></li>
+                            <li><a href="tel:+15555555555">(555) 555-5555</a></li>
+                            <li>City, State</li>
+                            <li><a href="https://www.linkedin.com" target="_blank" rel="noopener">LinkedIn</a></li>
+                            <li><a href="https://github.com" target="_blank" rel="noopener">GitHub</a></li>
+                        </ul>
+                    </section>
+
+                    <section class="side-block">
+                        <h2>Skills</h2>
+                        <ul class="skill-list">
+                            <li>Communication</li>
+                            <li>Project organization</li>
+                            <li>Problem solving</li>
+                            <li>Add your skill</li>
+                        </ul>
+                    </section>
+
+                    <section class="side-block">
+                        <h2>About me</h2>
+                        <p>Use this short space for a personal detail, a guiding value, or the kind of work that brings out your best.</p>
+                    </section>
+                </aside>
+            </div>
+        </section>
+    </main>
+
+    <footer>Bye! Thanks for visitng</footer>
 </body>
 </html>
